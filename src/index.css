@@ -1,13 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background-color: #595959;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  color: #22b1ab;
+}
+
+a,
+p {
+  width: 100%;
+  display: block;
+  font-size: 1em;
+  text-align: center;
+}
+
+article {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+img {
+  width: 40%;
+  margin-top: 1em;
+}
+
+.linkStyle {
+  max-width: 40%;
+  padding: 0.5em;
+  cursor: pointer;
+
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #7240ac, #965bd8);
+  color: #ffffff;
+  border-radius: 100px;
+}
+
+.linkStyle:hover {
+  background: linear-gradient(90deg, #18817c, #22b1ab);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.userElement {
+  width: 50vw;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  display: block;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.userDetilsContainer {
+  width: 98vw;
+
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+#noColor {
+  color: #000000;
 }
